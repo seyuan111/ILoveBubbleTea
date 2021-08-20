@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.buckets{
+    background-color: teal;
+    height: 100vh;
+    background-image: url(MilkTea.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.interior{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navb{
+    display: flex;
+    font-size: 23px;
+    color: darkblue;
+}
+
+.navb span{
+    margin-right: 15px;
+}
+
+.contact{
+    background-color: grey;
+    color: lightblue;
+    padding: 4px 10px;
+    cursor: pointer;
+}
